@@ -40,7 +40,7 @@ class UpstoxAuth:
                     logger.warning("api_config.py not found and no secrets provided.")
 
         self.access_token = None
-        self.redirect_uri = "http://localhost:8501" # Default local callback
+        self.redirect_uri = "http://localhost:5600" # Updated to match Upstox Console
         self._load_token()
 
     def _load_token(self):
