@@ -141,3 +141,18 @@ class UpstoxAuth:
         except Exception as e:
             logger.error(f"Token request error: {e}")
             return False
+
+    # --- COMPATIBILITY METHOD ---
+    def get_access_token(self):
+        """
+        Method required by some legacy plugins/services.
+        Ensures login flow is triggered if token is missing.
+        """
+        if not self.access_token:
+            # If in Streamlit, trigger UI flow
+            if self.login(): 
+                return self.access_token
+            else:
+                # If login fails or stops, return None or raise
+                return None
+        return self.access_token
