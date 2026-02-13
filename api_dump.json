@@ -1,0 +1,90 @@
+{
+  "futures_Nifty 50": {
+    "status": "success",
+    "data": {
+      "NSE_FO:NIFTY26FEBFUT": {
+        "ohlc": {
+          "open": 26050.0,
+          "high": 26068.0,
+          "low": 25955.0,
+          "close": 25989.7
+        },
+        "depth": {
+          "buy": [
+            {
+              "quantity": 65,
+              "price": 25985.6,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 25985.5,
+              "orders": 1
+            },
+            {
+              "quantity": 65,
+              "price": 25985.4,
+              "orders": 1
+            },
+            {
+              "quantity": 130,
+              "price": 25985.2,
+              "orders": 2
+            },
+            {
+              "quantity": 65,
+              "price": 25985.1,
+              "orders": 1
+            }
+          ],
+          "sell": [
+            {
+              "quantity": 65,
+              "price": 25986.2,
+              "orders": 1
+            },
+            {
+              "quantity": 520,
+              "price": 25989.7,
+              "orders": 1
+            },
+            {
+              "quantity": 130,
+              "price": 25990.5,
+              "orders": 1
+            },
+            {
+              "quantity": 1755,
+              "price": 25991.0,
+              "orders": 1
+            },
+            {
+              "quantity": 325,
+              "price": 25992.8,
+              "orders": 1
+            }
+          ]
+        },
+        "timestamp": "2026-02-11T21:24:32.911+05:30",
+        "instrument_token": "NSE_FO|59182",
+        "symbol": "NIFTY26FEBFUT",
+        "last_price": 25989.7,
+        "volume": 3451370,
+        "average_price": 26011.03,
+        "oi": 15103465.0,
+        "net_change": 4.1,
+        "total_buy_quantity": 155285.0,
+        "total_sell_quantity": 414830.0,
+        "lower_circuit_limit": 23387.1,
+        "upper_circuit_limit": 28584.1,
+        "last_trade_time": "1770803999614",
+        "oi_day_high": 15325895.0,
+        "oi_day_low": 14998685.0
+      }
+    }
+  },
+  "options_Nifty 50": {
+    "status": "success",
+    "data": []
+  }
+}

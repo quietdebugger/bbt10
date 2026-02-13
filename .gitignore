@@ -1,0 +1,20 @@
+
+# Security
+api_config_local.py
+upstox_tokens.json
+.env
+*.log
+*.err
+*.out
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
